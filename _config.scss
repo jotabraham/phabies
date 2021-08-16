@@ -1,7 +1,7 @@
-$primary-color: #00e122;
+$primary-color: #00e122a4;
 
 @mixin transition-ease {
-   transition: all 0.5s ease-in-out;
+   transition: all 0.75s ease-in-out;
 }
 
 @mixin media-sm {

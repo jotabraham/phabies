@@ -10,7 +10,7 @@
 body {
    color: $primary-color;
    font-family: 'Tomorrow', sans-serif;
-   font-size: 1rem;
+   font-size: 1.2rem;
    height: 100vh;
    overflow: hidden;
    background:
@@ -19,18 +19,18 @@ body {
          rgba(#000, 0.1),
          rgba(#000, 0.3)
       ),
-      url('../images/hand-blank.jpg') center top;
+      url('../images/hand-blank.jpg') left bottom;
    background-size: cover;
 
    .omg-text {
-      width: 70vw;
-      height: 25vh;
+      width: 65vw;
+      height: 30vh;
       text-decoration: none;
       text-align: justify;
       position: absolute;
-      top: 57%;
-      left: 15%;
-      transform: rotate(6deg);
+      bottom: 170px;
+      left: 168px;
+      transform: rotate(5deg);
       overflow: hidden;
    }
 }
@@ -41,4 +41,8 @@ a {
 
 .music-icon {
    color: $primary-color;
+}
+
+.social-icons {
+   display: none;
 }
