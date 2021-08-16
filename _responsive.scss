@@ -42,12 +42,13 @@
          display: flex;
          flex-direction: row;
          position: absolute;
-         bottom: 200px;
+         bottom: 250px;
          left: 525px;
+         transform: rotate(-2deg);
 
          .music-icon {
             padding-right: 20px;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
 
             &:hover {
                color: whitesmoke;
