@@ -10,7 +10,7 @@
 body {
    color: $primary-color;
    font-family: 'Tomorrow', sans-serif;
-   font-size: 1.2rem;
+   font-size: 0.9rem;
    height: 100vh;
    overflow: hidden;
    background:
@@ -19,17 +19,17 @@ body {
          rgba(#000, 0.1),
          rgba(#000, 0.3)
       ),
-      url('../images/hand-blank.jpg') left bottom;
+      url('../images/hand-blank.jpg') center bottom;
    background-size: cover;
 
    .omg-text {
       width: 65vw;
-      height: 30vh;
+      height: 27vh;
       text-decoration: none;
       text-align: justify;
       position: absolute;
-      bottom: 170px;
-      left: 168px;
+      bottom: 132px;
+      left: 60px;
       transform: rotate(5deg);
       overflow: hidden;
    }
