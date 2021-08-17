@@ -40,7 +40,7 @@
          height: 205px;
          width: 275px;
          position: absolute;
-         bottom: 90px;
+         bottom: 45px;
          left: 510px;
          transform: rotate(-1.5deg);
          font-size: 1rem;
@@ -53,6 +53,23 @@
                }
             }
          }
+      }
+   }
+}
+
+@include media-xl {
+   //  1024
+   .body {
+      // background: url('../images/laura.jpg') left bottom;
+
+      div.omg-text {
+         // height: 205px;
+         // width: 275px;
+         // position: absolute;
+         bottom: 90px;
+         // left: 510px;
+         // transform: rotate(-1.5deg);
+         // font-size: 1rem;
       }
    }
 }
