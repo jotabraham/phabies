@@ -34,29 +34,37 @@
    .body {
       background: url('../images/laura.jpg') left bottom;
 
-      .omg-text {
-         display: none;
-      }
-
-      .social-icons {
-         display: flex;
-         flex-direction: row;
+      div.omg-text {
+         width: 275px;
+         height: 205px;
          position: absolute;
-         bottom: 250px;
-         left: 525px;
+         bottom: 100px;
+         left: 510px;
          transform: rotate(-2deg);
+         font-size: 1rem;
 
          .music-icon {
-            padding-right: 20px;
-            font-size: 1.6rem;
-
             &:hover {
                color: whitesmoke;
                @include transition-ease;
             }
          }
       }
-   }
+
+      // .social-icons {
+      //    display: flex;
+      //    flex-direction: row;
+      //    position: absolute;
+      //    bottom: 250px;
+      //    left: 525px;
+      //    transform: rotate(-2deg);
+
+      //    .music-icon {
+      //       padding-right: 20px;
+      //       font-size: 1.6rem;
+
+            
+         }
  }
 
 
