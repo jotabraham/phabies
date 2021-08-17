@@ -1,14 +1,13 @@
 
- @include media-sm {
-   //  600px
-   .body {
-      div.omg-text {
-         height: auto;
-         width: auto;
-
-      }
-   }
- }
+//  @include media-sm {
+//    //  600px
+//    .body {
+//       div.omg-text {
+//          height: auto;
+//          width: auto;
+//       }
+//    }
+//  }
  
  @include media-md {
    //  768px
@@ -16,14 +15,17 @@
       // background: url('../images/laura.jpg') left bottom;
 
       div.omg-text {
-         // stuff
+         height: 450px;
+         width: 550px;
+         left: 100px;
+         bottom: 125px;
 
-         .music-icon {
-            &:hover {
-               color: whitesmoke;
-               @include transition-ease;
-            }
-         }
+         // .music-icon {
+         //    &:hover {
+         //       color: whitesmoke;
+         //       @include transition-ease;
+         //    }
+         // }
       }
    }
  }
