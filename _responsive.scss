@@ -5,7 +5,7 @@
       div.omg-text {
          height: auto;
          width: auto;
-         
+
       }
    }
  }
@@ -37,15 +37,17 @@
          height: 205px;
          width: 275px;
          position: absolute;
-         bottom: 100px;
+         bottom: 90px;
          left: 510px;
-         transform: rotate(-2deg);
+         transform: rotate(-1.5deg);
          font-size: 1rem;
 
-         .music-icon {
-            &:hover {
-               color: whitesmoke;
-               @include transition-ease;
+         p {
+            .music-icon {
+               &:hover {
+                  color: whitesmoke;
+                  @include transition-ease;
+               }
             }
          }
       }
